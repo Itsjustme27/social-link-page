@@ -23,8 +23,13 @@ body, .card, .img,.button{
     background-color: grey;
 }
 
-.custom-btn{
+button.custom-btn{
     background-color: hsl(0, 0%, 20%);
+    color: white;
+}
+
+button.custom-btn:hover{
+    background-color: aliceblue;
 }
 
 .profile{
