@@ -1,0 +1,35 @@
+@import url(https://fonts.google.com/specimen/Inter);
+
+body, .card, .img,.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile{
+    background-color: hsl(0, 0%, 8%);
+    width: 400px;
+    height: 800px;
+}
+
+.btn{
+    width: 18rem;
+}
+
+.card{
+    width: 20rem;
+    color: white;
+    background-color: grey;
+}
+
+.custom-btn{
+    background-color: hsl(0, 0%, 20%);
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
